@@ -1,0 +1,149 @@
+$tetris-size = 20px
+$puyo-size =  $tetris-size / 6 * 10
+
+// container
+.tetris,.puyo {
+    position relative;
+    background: black;
+    border-style: solid;
+    border-color: rgba(255,255,255,.1);
+    border-width: ($tetris-size / 2);
+    display: inline-block;
+    font-size: 0px;
+    margin: ($tetris-size/2);
+    margin-left: 0;
+  }
+
+// tetris
+.tetris span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: $tetris-size;
+    height: $tetris-size;
+    border-width: ($tetris-size / 10);
+    border-style: outset;
+    border-color:   rgba(255,255,255,.3) rgba(0,0,0,.3) rgba(0,0,0,.4) rgba(255,255,255,.2);
+}
+.tetris span.tetris-empty {
+    background: transparent;
+    border-style: solid;
+    border-color: rgba(255,255,255,.1);
+    border-width: 1px;
+}
+.tetris-t {
+    background-color: #a3f;
+}
+.tetris-T {
+    background-color: #a3f;
+    opacity: .4;
+}
+.tetris-s {
+    background-color: #0d0;
+}
+.tetris-S {
+    background-color: #0d0;
+    opacity: .4;
+}
+.tetris-i {
+    background-color: #0ee;
+}
+.tetris-I {
+    background-color: #0ff;
+    opacity: .35;
+}
+.tetris-z {
+    background-color: #f00;
+}
+.tetris-Z {
+    background-color: #f00;
+    opacity: .4;
+}
+.tetris-o {
+    background-color: #fd0;
+}
+.tetris-O {
+    background-color: #fd0;
+    opacity: .3;
+}
+.tetris-l {
+    background-color: #f60;
+}
+.tetris-L {
+    background-color: #f60;
+    opacity: .3;
+}
+.tetris-j {
+    background-color: #33f;
+}
+.tetris-J {
+    background-color: #33f;
+    opacity: .4;
+}
+/* trash */
+.tetris-g {
+    background-color: #ccc;
+}
+.tetris-G {
+    background-color: #ccc;
+    opacity: .3;
+}
+/* mark */
+.tetris span.tetris-x {
+    background: black;
+    border-style: solid;
+    border-color: rgba(255,255,255,.1);
+    border-width: 1px;
+    background-color: transparent;
+    position: relative;
+}
+.tetris-x:before,
+.tetris-x:after {
+    position: absolute;
+    left: "calc( %s / 2 - 2px )" % $tetris-size;
+    top: -1px;
+    content: '';
+    height: $tetris-size;
+    width: 2px;
+    background: red;
+}
+.tetris-x:before {
+    transform: rotate(45deg);
+}
+.tetris-x:after {
+    transform: rotate(-45deg);
+}
+
+
+// puyo
+
+.puyo span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: $puyo-size;
+    height: $puyo-size;
+    border-radius: 50%;
+}
+div[class$="container"] {
+    filter: url("#puyo");
+    position: absolute;
+    top: 0; left: 0;
+}
+div[class$="container"]:first-child {
+    position: relative;
+}
+
+.puyo-r {
+    background: rgb(255,0,0);
+}
+.puyo-g {
+    background: rgb(0,255,0);
+}
+.puyo-b {
+    background: rgb(75, 90, 255);
+}
+.puyo-y {
+    background: rgb(255,255,0);
+}
+.puyo-p {
+    background: rgb(255,0,255);
+}
