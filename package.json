@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "vuepress": "^0.14.10"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "markdown-it-puyo": "^1.1.6",
+    "markdown-it-tetris": "^1.1.5",
+    "webpack-dev-middleware": "3.6.0"
+  },
+  "license": "UNLICENSED",
+  "name": "tetris",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "description": ""
+}
