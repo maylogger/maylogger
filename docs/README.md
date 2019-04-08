@@ -1,3 +1,5 @@
+
+
 # Tetris code
 
 ::: tip 秘訣！
@@ -30,3 +32,6 @@ gr
 ggr
 rr
 }
+
+
+<puyo/>
