@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/maylogger/",
   locales: {
     '/': {
       lang: 'zh-TW', // 将会被设置为 <html> 的 lang 属性
