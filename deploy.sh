@@ -2,9 +2,11 @@
 
 set -e
 
-npm run docs:build
+yarn docs:build
 
 cd docs/.vuepress/dist
+
+echo 'maylogger.com\nwww.maylogger.com' > CNAME
 
 git init
 git add -A
