@@ -4316,9 +4316,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 log-symbols@^2.1.0:
   version "2.2.0"
@@ -4441,10 +4441,20 @@ markdown-it-emoji@^1.4.0:
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
   integrity sha1-m+4OmpkKljupbfaYDE/dsF37Tcw=
 
+markdown-it-puyo@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/markdown-it-puyo/-/markdown-it-puyo-1.1.6.tgz#6db11f2a4d2165566e9f20047f9a5438372ef482"
+  integrity sha512-8jwlzKftsl4BuiSG7Fij0UUXVFs/zt/LcmW1+ALuI822J1VMBsU8nIwGAi09/xwJNXpcN9yVRK4dldMIzom+/g==
+
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.3.tgz#6453925a76e49b9b3d9569a0d89f1c2168b46982"
   integrity sha512-x/OdaRzLYxAjmB+jIVlXuE3nX7tZTLDQxm58RkgjTLyQ+I290jYQvPS9cJjVN6SM3U6K6CHKYNgUtPNZmLblYQ==
+
+markdown-it-tetris@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/markdown-it-tetris/-/markdown-it-tetris-1.1.5.tgz#5da15d7ede629b446248d63cea55d9ddb580d500"
+  integrity sha512-3GUiwIfcl8ovq8shGNVD7NojUA8O01vP6WMi2kDFdsC04V1V6WZ/NmWTSbtsPMBNAYaZ4R4bX0jd43IJvDkZeA==
 
 markdown-it@^8.4.1:
   version "8.4.2"
