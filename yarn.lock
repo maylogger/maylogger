@@ -4459,6 +4459,11 @@ markdown-it-tetris@^1.1.5:
   resolved "https://registry.yarnpkg.com/markdown-it-tetris/-/markdown-it-tetris-1.1.5.tgz#5da15d7ede629b446248d63cea55d9ddb580d500"
   integrity sha512-3GUiwIfcl8ovq8shGNVD7NojUA8O01vP6WMi2kDFdsC04V1V6WZ/NmWTSbtsPMBNAYaZ4R4bX0jd43IJvDkZeA==
 
+markdown-it-tetris@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/markdown-it-tetris/-/markdown-it-tetris-1.1.5.tgz#5da15d7ede629b446248d63cea55d9ddb580d500"
+  integrity sha512-3GUiwIfcl8ovq8shGNVD7NojUA8O01vP6WMi2kDFdsC04V1V6WZ/NmWTSbtsPMBNAYaZ4R4bX0jd43IJvDkZeA==
+
 markdown-it@^8.4.1:
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"
