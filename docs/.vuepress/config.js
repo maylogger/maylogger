@@ -3,7 +3,7 @@ module.exports = {
     '/': {
       lang: 'zh-TW', // 将会被设置为 <html> 的 lang 属性
       title: '美勞哥的美勞作業',
-      description: '美勞哥的遊戲直播心得筆記',
+      description: '歡迎光臨美勞哥的遊戲直播心得筆記',
     }
   },
   markdown: {
@@ -16,15 +16,16 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#6441A4' }]
   ],
   themeConfig: {
-    logo: '/maylogger.jpg',
     nav: [
       { text: '新手上路', link: '/beginner/' },
+      { text: '進階筆記', link: '/advanced/' },
       { text: 'YouTube', link: 'https://www.youtube.com/channel/UCr_3T33ww06v-q7vAmC7_cA' },
       { text: 'FB 粉專', link: 'https://facebook.com/maylogger' },
       { text: 'Twitch 直播', link: 'https://www.twitch.tv/may_logger/' }
     ],
     sidebar: {
-      '/beginner/': getBeginnerSidebar('簡介', 'Tetris 俄羅斯方塊入門', 'Puyo 魔法氣泡入門')
+      '/beginner/': getBeginnerSidebar('新手上路', 'Tetris 俄羅斯方塊入門', 'Puyo 魔法氣泡入門'),
+      '/advanced/': getAdvancedSidebar('Tetris 俄羅斯方塊進階', 'Puyo 魔法氣泡進階')
     }
   }
 }
@@ -35,18 +36,36 @@ function getBeginnerSidebar (groupA,groupB,groupC) {
       title: groupA,
       collapsable: false,
       children: [
-        ''
+        ['', '基本介紹'],
+        'game'
       ]
     },
     {
       title: groupB,
-      collapsable: true,
+      collapsable: false,
       children: [
       ]
     },
     {
       title: groupC,
-      collapsable: true,
+      collapsable: false,
+      children: [
+      ]
+    }
+  ]
+}
+
+function getAdvancedSidebar (groupA,groupB) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [
+      ]
+    },
+    {
+      title: groupB,
+      collapsable: false,
       children: [
         'mr-coffee-all-clear-guide'
       ]
