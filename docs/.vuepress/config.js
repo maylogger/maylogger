@@ -37,7 +37,9 @@ function getBeginnerSidebar (groupA,groupB,groupC) {
       collapsable: false,
       children: [
         ['', '基本介紹'],
-        'game'
+        'control',
+        'how-to-win',
+        'how-to-attack'
       ]
     },
     {

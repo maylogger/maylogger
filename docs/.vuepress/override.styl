@@ -1,9 +1,14 @@
 $tetris-size = 20px
 $puyo-size =  $tetris-size / 6 * 10
 
-.content a {
-    white-space: pre-wrap;
-    word-wrap: break-word;
+.content {
+    a {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+}
+.page-nav {
+    font-size: 2em;
 }
 
 // container
@@ -141,11 +146,16 @@ $puyo-size =  $tetris-size / 6 * 10
     padding: ($tetris-size / 2);
     opacity: 0.9;
 }
+
 @supports (mix-blend-mode: screen) {
     .puyo div[class$="container"] {
         background: black;
         mix-blend-mode: screen;
         filter: blur(5px) contrast(20) sepia(40%);
+    }
+    .puyo div[class=puyo-k-container],
+    .puyo div[class=puyo-K-container] {
+        filter: none;
     }
 }
 .puyo div[class$="container"]:first-child {
@@ -167,13 +177,27 @@ $puyo-size =  $tetris-size / 6 * 10
 .puyo-p, .puyo-P {
     background: rgb(220,80,220);
 }
+.puyo-k, .puyo-K {
+    background: #ccc;
+}
 
-.puyo span.puyo-R,.puyo span.puyo-G,.puyo span.puyo-B,.puyo span.puyo-Y,.puyo span.puyo-P {
+.puyo span.puyo-R,
+.puyo span.puyo-G,
+.puyo span.puyo-B,
+.puyo span.puyo-Y,
+.puyo span.puyo-P {
     opacity: .9;
     width: ($puyo-size / 2);
     height: ($puyo-size / 2);
     margin: ($puyo-size / 4);
 }
+.puyo span.puyo-k {
+    opacity: 1;
+    width: ($puyo-size - 4);
+    height: ($puyo-size - 4);
+    margin: 2px;
+}
+
 .puyo span.puyo-B {
     background: saturation(rgb(100, 120, 200),100%);
     opacity: 1
