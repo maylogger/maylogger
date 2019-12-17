@@ -24,7 +24,7 @@ module.exports = {
       { text: 'Twitch 直播', link: 'https://www.twitch.tv/may_logger/' }
     ],
     sidebar: {
-      '/beginner/': getBeginnerSidebar('新手上路', 'Tetris 俄羅斯方塊入門', 'Puyo 魔法氣泡入門'),
+      '/beginner/': getBeginnerSidebar('新手上路'),
       '/advanced/': getAdvancedSidebar('Tetris 俄羅斯方塊進階', 'Puyo 魔法氣泡進階')
     }
   }
@@ -39,19 +39,8 @@ function getBeginnerSidebar (groupA,groupB,groupC) {
         ['', '基本介紹'],
         'control',
         'how-to-win',
-        'how-to-attack'
-      ]
-    },
-    {
-      title: groupB,
-      collapsable: false,
-      children: [
-      ]
-    },
-    {
-      title: groupC,
-      collapsable: false,
-      children: [
+        'tetris-attack',
+        'puyo-attack'
       ]
     }
   ]
