@@ -67,10 +67,10 @@ puyo {
      
     yb
      
- ygr
+ ygrY
 ygryb
 ygryb
-ygryb
+ygrybB
 }
 
 ::: tip 太棒啦

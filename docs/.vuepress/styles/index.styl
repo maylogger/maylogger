@@ -1,7 +1,7 @@
-$tetris-size = 20px
+$tetris-size = 12px
 $puyo-size =  $tetris-size / 6 * 10
 
-.content {
+.page {
     a {
         white-space: pre-wrap;
         word-wrap: break-word;
@@ -13,15 +13,30 @@ $puyo-size =  $tetris-size / 6 * 10
     th,td {
         padding: 0.3em 0.75em;
     }
+    img {
+        display: block;
+        margin: 1em 0 1em -1.5em;
+        width: 100vmin !important;
+        max-width: none !important;
+        height: auto;
+        
+    }
+    li {
+        margin-top: .5em;
+    }
 }
 .page-nav {
-    font-size: 2em;
+    font-size: 1.5em;
+    span {
+        display: block;
+    }
 }
 
 .youtube {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
+    margin: 2rem 0;
     iframe {
         position: absolute;
         top: 0;
@@ -40,8 +55,7 @@ $puyo-size =  $tetris-size / 6 * 10
     border-width: ($tetris-size / 2);
     display: inline-block;
     font-size: 0px;
-    margin: ($tetris-size/2);
-    margin-left: 0;
+    margin: .75rem 1rem .75rem 0;
   }
 .puyo {
     background: #420;
@@ -171,7 +185,7 @@ $puyo-size =  $tetris-size / 6 * 10
     .puyo div[class$="container"] {
         background: black;
         mix-blend-mode: screen;
-        filter: blur(5px) contrast(20) sepia(40%);
+        filter: blur(2.5px) contrast(50) sepia(40%);
     }
     .puyo div[class=puyo-k-container],
     .puyo div[class=puyo-K-container] {

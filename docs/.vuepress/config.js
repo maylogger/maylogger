@@ -15,7 +15,7 @@ module.exports = {
     }
   },
   markdown: {
-    config: md => {
+    extendMarkdown: md => {
       md.use(require('markdown-it-tetris')).use(require('markdown-it-puyo'))
     }
   },

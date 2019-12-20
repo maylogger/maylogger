@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.2.0",
-    "vuepress": "^0.14.10"
+    "vuepress": "^1.2.0"
   },
   "resolutions": {
     "webpack-dev-middleware": "3.6.0"
