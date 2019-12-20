@@ -211,11 +211,41 @@ $puyo-size =  $tetris-size / 6 * 10
     height: ($puyo-size / 2);
     margin: ($puyo-size / 4);
 }
-.puyo span.puyo-k {
+.puyo span.puyo-k,
+.puyo span.puyo-K,
+.puyo span.puyo-x {
     opacity: 1;
     width: ($puyo-size - 4);
     height: ($puyo-size - 4);
     margin: 2px;
+}
+
+/* mark */
+.puyo span.puyo-K,
+.puyo span.puyo-x {
+    position: relative;
+}
+
+.puyo-K:before,
+.puyo-K:after
+.puyo-x:before,
+.puyo-x:after {
+    $size = 2px;
+    position: absolute;
+    left: "calc( %s / 2 - %s - 0.5px )" % ($puyo-size $size);
+    top: -2px;
+    content: '';
+    height: $puyo-size;
+    width: $size;
+    background: red;
+}
+.puyo-K:before,
+.puyo-x:before {
+    transform: rotate(45deg);
+}
+.puyo-K:after,
+.puyo-x:after {
+    transform: rotate(-45deg);
 }
 
 .puyo span.puyo-B {
@@ -227,3 +257,4 @@ $puyo-size =  $tetris-size / 6 * 10
     filter: none !important;
     background: transparent !important;
 }
+
