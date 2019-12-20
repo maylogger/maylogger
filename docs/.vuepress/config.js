@@ -1,4 +1,12 @@
 module.exports = {
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-154844551-1'
+      }
+    ]
+  ],
   locales: {
     '/': {
       lang: 'zh-TW', // 将会被设置为 <html> 的 lang 属性

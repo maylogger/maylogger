@@ -188,8 +188,11 @@ $puyo-size =  $tetris-size / 6 * 10
 .puyo-g, .puyo-G {
     background: rgb(50,220,50);
 }
-.puyo-b, .puyo-B {
+.puyo-b {
     background: rgb(100, 120, 200);
+}
+.puyo-B {
+    background: #181a9f;
 }
 .puyo-y, .puyo-Y {
     background: rgb(220,220,80);
@@ -207,9 +210,9 @@ $puyo-size =  $tetris-size / 6 * 10
 .puyo span.puyo-Y,
 .puyo span.puyo-P {
     opacity: .9;
-    width: ($puyo-size / 2);
-    height: ($puyo-size / 2);
-    margin: ($puyo-size / 4);
+    width: ($puyo-size / 3);
+    height: ($puyo-size / 3);
+    margin: ($puyo-size / 3);
 }
 .puyo span.puyo-k,
 .puyo span.puyo-K,
@@ -249,7 +252,6 @@ $puyo-size =  $tetris-size / 6 * 10
 }
 
 .puyo span.puyo-B {
-    background: saturation(rgb(100, 120, 200),100%);
     opacity: 1
 }
 
