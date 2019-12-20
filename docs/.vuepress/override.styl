@@ -6,9 +6,29 @@ $puyo-size =  $tetris-size / 6 * 10
         white-space: pre-wrap;
         word-wrap: break-word;
     }
+    table {
+        font-size: .8em;
+        min-width: 100%;
+    }
+    th,td {
+        padding: 0.3em 0.75em;
+    }
 }
 .page-nav {
     font-size: 2em;
+}
+
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 }
 
 // container

@@ -12,6 +12,7 @@
   "dependencies": {
     "markdown-it-puyo": "^1.1.6",
     "markdown-it-tetris": "^1.1.5",
+    "reframe.js": "^2.2.6",
     "webpack-dev-middleware": "3.6.0"
   },
   "license": "UNLICENSED",
