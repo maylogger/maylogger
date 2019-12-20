@@ -7,7 +7,7 @@ meta:
   - property: og:title
     content: 美勞哥的「俄羅斯方塊、魔法氣泡」新手上路指南
   - property: og:image
-    content: https://maylogger.com/og-image-beginner.jpg
+    content: https://maylogger.com/cover-beginner.jpg
 ---
 
 # 俄羅斯方塊魔法氣泡，這遊戲是什麼？
