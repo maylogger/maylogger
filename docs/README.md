@@ -14,7 +14,7 @@ heroImage: /maylogger.jpg
 actionText: 新手上路 →
 actionLink: /beginner/
 features:
-- title: 關於美勞哥
+- title: 關於美勞哥A
   details: 平常會在 Twitch 直播平台上玩魔法氣泡俄羅斯方塊。另外我也是一位 UI 設計師，所以我的頻道偶爾會有一些關於介面設計或一同觀看新科技的直播。
 - title: 俄羅斯方塊/魔法氣泡
   details: 美勞哥會寫一些心得教學，不論《俄羅斯方塊》還是《魔法氣泡》，希望這些心得可以讓大家快速地上手，獲得樂趣唷！
