@@ -7,7 +7,7 @@ meta:
   - property: og:title
     content: 美勞哥的美勞作業
   - property: og:image
-    content: https://maylogger.com/cover-maylogger.jpg
+    content: https://maylogger.com/cover-site.jpg
 
 home: true
 heroImage: /maylogger.jpg
