@@ -14,7 +14,7 @@ footer: 美勞哥 may_logger 2019
 
 meta:
   - name: description
-    content: 美勞哥的美勞作業
+    content: 歡迎光臨美勞哥的美勞作業
   - name: keywords
     content: 魔術方塊 TB Tetris99
   - property: og:title
