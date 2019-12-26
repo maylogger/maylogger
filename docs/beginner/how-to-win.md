@@ -31,7 +31,7 @@ j   zjilsi
 oo zzjilss
 oo zjjills
 ggg gggggg
-G GGGGGGGG
+ggg gggggg
 }
 
 或是被對手攻擊的垃圾推到滿，頂到最上方，也是輸：

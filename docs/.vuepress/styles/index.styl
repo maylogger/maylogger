@@ -69,9 +69,8 @@ $puyo-size =  $tetris-size / 6 * 10
     display: inline-block;
     width: $tetris-size;
     height: $tetris-size;
-    border-width: ($tetris-size / 10);
-    border-style: outset;
-    border-color:   rgba(255,255,255,.3) rgba(0,0,0,.3) rgba(0,0,0,.4) rgba(255,255,255,.2);
+    border: .5px solid #0004;
+    // border-color:   rgba(255,255,255,.3) rgba(0,0,0,.3) rgba(0,0,0,.4) rgba(255,255,255,.2);
 }
 .tetris span.tetris-empty {
     background: transparent;
@@ -147,10 +146,10 @@ $puyo-size =  $tetris-size / 6 * 10
 }
 .tetris-x:before,
 .tetris-x:after {
-    $size = 2px;
+    $size = 1px;
     position: absolute;
     left: "calc( %s / 2 - %s )" % ($tetris-size $size);
-    top: -1px;
+    top: $size/2;
     content: '';
     height: $tetris-size;
     width: $size;
@@ -247,9 +246,9 @@ $puyo-size =  $tetris-size / 6 * 10
 .puyo-K:after
 .puyo-x:before,
 .puyo-x:after {
-    $size = 2px;
+    $size = 4px;
     position: absolute;
-    left: "calc( %s / 2 - %s - 0.5px )" % ($puyo-size $size);
+    left: "calc( %s / 2 - %s )" % ($puyo-size $size);
     top: -2px;
     content: '';
     height: $puyo-size;
