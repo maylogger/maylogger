@@ -11,6 +11,16 @@ features:
 - title: 跟美勞哥一起玩
   details: 歡迎追隨美勞哥的 Twitch 頻道，以及臉書粉絲專頁。都可以找到美勞哥的實況遊玩平台。遊戲的購買連結也在下方提供了！
 footer: 美勞哥 may_logger 2019
+
+meta:
+  - name: description
+    content: 美勞哥的美勞作業
+  - name: keywords
+    content: 魔術方塊 TB Tetris99
+  - property: og:title
+    content: 美勞哥的美勞作業
+  - property: og:image
+    content: https://maylogger.com/cover-maylogger.jpg
 ---
 
 ### 追隨美勞哥就像 1,2,3 這麼容易：
