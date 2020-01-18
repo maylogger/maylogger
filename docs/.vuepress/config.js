@@ -66,6 +66,7 @@ function getAdvancedSidebar (groupA,groupB) {
       title: groupB,
       collapsable: false,
       children: [
+        'tofu-gtr-tail-guide',
         'mr-coffee-all-clear-guide'
       ]
     }
