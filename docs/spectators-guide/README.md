@@ -24,4 +24,4 @@ Twitch 為了讓不同的遊戲社群透過整合更加壯大，打造了全新�
 我們是台灣的益智遊戲社群，PUTE 名稱來自益智遊戲《魔法氣泡俄羅斯方塊》的英文 **Pu**yo Puyo **Te**tris 組合而成！無論是對於魔法氣泡或是俄羅斯方塊有興趣的人都可以加入我們的 Discord，一起聊聊或尋找適合的玩家一起交流，以及各種不定期比賽資訊。
 
 - [PUTE TW 社群 Discord](https://discord.gg/KhPdVQ4)
-- [Twitch 團隊](https://www.twitch.tv/teams/putetw/)
+- [Twitch 團隊](https://www.twitch.tv/team/putetw/)
