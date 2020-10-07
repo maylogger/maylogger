@@ -11,6 +11,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "livereload": "^0.9.1",
     "markdown-it-puyo": "^1.1.6",
     "markdown-it-tetris": "^1.1.5",
     "reframe.js": "^2.2.6",

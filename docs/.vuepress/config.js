@@ -10,8 +10,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-TW', // 将会被设置为 <html> 的 lang 属性
-      title: '美勞哥的美勞作業',
-      description: '歡迎光臨美勞哥的遊戲直播心得筆記',
+      title: '勞首頁',
+      description: '歡迎光臨勞哥的直播筆記',
     }
   },
   markdown: {
@@ -24,16 +24,18 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#6441A4' }]
   ],
   themeConfig: {
+    smoothScroll: true,
     nav: [
       { text: '新手上路', link: '/beginner/' },
       { text: '進階筆記', link: '/advanced/' },
-      { text: 'YouTube', link: 'https://www.youtube.com/channel/UCr_3T33ww06v-q7vAmC7_cA' },
-      { text: 'FB 粉專', link: 'https://facebook.com/maylogger' },
-      { text: 'Twitch 直播', link: 'https://www.twitch.tv/may_logger/' }
+      { text: '觀賽指南', link: '/spectators-guide/' },
+      { text: '勞地盤 Discord', link: 'https://discord.gg/e5ck7ZF' },
+      { text: '勞哥 Twitch', link: 'https://www.twitch.tv/may_logger/' }
     ],
     sidebar: {
       '/beginner/': getBeginnerSidebar('新手上路'),
-      '/advanced/': getAdvancedSidebar('Tetris 俄羅斯方塊進階', 'Puyo 魔法氣泡進階')
+      '/advanced/': getAdvancedSidebar('Tetris 俄羅斯方塊進階', 'Puyo 魔法氣泡進階'),
+      '/spectators-guide/': getGuideSidebar('觀賽指南')
     }
   }
 }
@@ -68,6 +70,20 @@ function getAdvancedSidebar (groupA,groupB) {
       children: [
         'tofu-gtr-tail-guide',
         'mr-coffee-all-clear-guide'
+      ]
+    }
+  ]
+}
+
+function getGuideSidebar (groupA) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [
+        ['', '基本介紹'],
+        'tetrio',
+        'puyo'
       ]
     }
   ]
